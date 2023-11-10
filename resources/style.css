@@ -1,4 +1,19 @@
-/* #d77d56 */
+/* Document information
+        -Document: Simplon météo
+        -Author : Hugo Foisseau
+
+/* Colors
+
+    color: #D77D56;
+    color: #3c4043;
+
+    background-color: #fef9f6;
+    background-color: #2B6065;
+
+/* Fonts
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+*/
 
 /*titre*/
 body {
@@ -8,19 +23,16 @@ body {
 
 }
 
-.title {
-    display: flex;
-    justify-content: center;
-}
-
 h1 {
     padding-left: .2em;
     font-size: 1em;
 }
-h2{
+
+h2 {
     font-size: .5em;
 
 }
+
 p {
     font-size: .5em;
     color: #D77D56;
@@ -42,6 +54,11 @@ img {
         transform: rotate(360deg);
 
     }
+}
+
+.title {
+    display: flex;
+    justify-content: center;
 }
 
 .containerMeteo {
@@ -84,6 +101,7 @@ img {
     opacity: 20%;
     font-size: .5em;
 }
+
 .var {
     color: white !important;
 }
