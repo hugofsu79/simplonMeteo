@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simplon Météo</title>
+
+    <link rel="stylesheet" href="style/style.css">
+    <!-- font sanfrancisco-font -->
+    <link rel="stylesheet prefetch"
+        href="https://gist.githubusercontent.com/mfd/614e2e80a22b878bde63cb471cbe677e/raw/eef2aabfd0d588d43285431186a0cf70305ceb80/sanfrancisco-font.css">
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/826eec2b4c.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="title">
+        <img src="./img/logo_simplon.svg">
+        <h1>Simplon météo</h1>
+    </div>
+    <div class="containerMeteo">
+
+        <div class="rMeteo">
+            <form class="rechercher">
+                <input placeholder="Ville" type="text" id="inputVille" />
+                <button type="submit">Rechercher</button>
+
+            </form>
+        </div>
+    </div>
+
+    <form class="resultat">
+        <div class="box">
+            <p><i class="fa-solid fa-city" style="color: #D77D56;"></i> Ville</p>
+            <div id="ville"></div>
+        </div>
+        <div class="box">
+            <p><i class="fa-solid fa-temperature-three-quarters" style="color: #D77D56;"></i> temperature</p>
+            <div id="temperature"></div>
+        </div>
+        <div class="box">
+            <p><i class="fa-solid fa-water" style="color: #D77D56;"></i> Humidité</p>
+            <div id="humidite"></div>
+        </div>
+        <div class="box">
+            <p><i class="fa-solid fa-wind" style="color: #D77D56;"></i> Vent</p>
+            <div id="vent"></div>
+        </div>
+    </form>
+
+    <script src="js/meteo.js"></script>
+</body>
+
+</html>
