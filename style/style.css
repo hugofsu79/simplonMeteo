@@ -17,7 +17,11 @@ h1 {
     padding-left: .2em;
     font-size: 1em;
 }
-p{
+h2{
+    font-size: .5em;
+
+}
+p {
     font-size: .5em;
     color: #D77D56;
 }
@@ -25,8 +29,8 @@ p{
 img {
     width: 1em;
     animation: ani 7s infinite;
-	animation-delay: 5s;
-	transition-timing-function: cubic-bezier(0.1, 2, 0, 0.1);
+    animation-delay: 5s;
+    transition-timing-function: cubic-bezier(0.1, 2, 0, 0.1);
 }
 
 @keyframes ani {
@@ -50,7 +54,6 @@ img {
 
 }
 
-
 .rechercher {
     display: flex;
     justify-content: center;
@@ -62,6 +65,7 @@ img {
     flex-direction: row;
 
 }
+
 .box {
     margin: .2em;
     padding: .4em;
@@ -74,6 +78,14 @@ img {
     color: #FCEDE9;
     border-radius: 0.5em;
 
+}
+
+.temperatureVar {
+    opacity: 20%;
+    font-size: .5em;
+}
+.var {
+    color: white !important;
 }
 
 input {

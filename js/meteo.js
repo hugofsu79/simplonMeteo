@@ -13,6 +13,9 @@ let meteoApi = function (ville) {
                 document.querySelector('#temperature').innerHTML = Math.round(data.main.temp) + '°C';
                 document.querySelector('#humidite').innerHTML = data.main.humidity + '%';
                 document.querySelector('#vent').innerHTML = data.wind.speed + 'km/h';
+                document.querySelector('#temperatureMax').innerHTML = Math.round(data.main.temp_max) + '°C';
+                document.querySelector('#temperatureMin').innerHTML = Math.round(data.main.temp_min) + '°C';
+
             })
         ).catch(err => console.log('Erreur : ' + err));
 
